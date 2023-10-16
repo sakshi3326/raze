@@ -1,0 +1,105 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/business-concept-with-graphic-holography_23-2149160929.jpg?size=626&ext=jpg&ga=GA1.1.855370055.1697480341&semt=ais'); /* Replace 'your-image-url.jpg' with the actual URL of your background image */
+            background-size: cover; /* Adjust to your preference */
+            background-repeat: no-repeat; /* Adjust to your preference */
+            color: white;
+}
+.content h1 {
+    font-size: 86px; /* Adjust the font size as needed */
+}
+.content p{
+    font-size: 25px;
+}
+header {
+    background-color: #0D2329;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+#search-icon {
+    font-size: 24px;
+}
+
+.content {
+    text-align: center;
+    padding: 110px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 20px;
+}
+.button-row {
+   
+    justify-content: flex-start;
+    margin-right: 80px;
+    
+}
+.button-row button {
+    background-color: #1e6e82; /* Change the color to your desired background color */
+    color: #fff; /* Text color for the buttons */
+    padding: 5px 15px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+}
+
+.container-item {
+    flex: 1;
+    height: 250px;
+    background-color: #243D43;
+    margin: 10px;
+  display: flex;
+    align-items: center;
+}
+.item-image {
+    
+    padding: 10px;
+}
+
+.item-image img {
+    width: 100%;
+    height: auto;
+}
+
+.item-text {
+    flex: 2;
+    padding: 10px;
+    color: white;
+}
+
+/* Adjust the gap between image and text */
+.item-image, .item-text {
+    margin: 10px;
+}
