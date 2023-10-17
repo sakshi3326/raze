@@ -315,9 +315,9 @@ p {
         background-color: #FFFFFF;
         margin: 3px;
         display: flex;
-        align-items: center;
+        
         border-radius: 5px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         
     }
     .font{
