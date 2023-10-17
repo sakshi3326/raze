@@ -63,8 +63,8 @@ p {
 }
 .sub-container {
     border: 2px ; /* Add a border for visual separation */
-    padding: 5px; /* Add some padding to the sub-containers */
-    margin: 2px; /* Add margin to separate them */
+    padding: 10px; /* Add some padding to the sub-containers */
+    margin: 5px; /* Add margin to separate them */
     text-align: center; /* Center the content inside sub-containers */
     width: 18%; /* Adjust the width to your preference */
 }
@@ -329,5 +329,12 @@ p {
         color: #107854;
          font-size: 10px; 
          
+    }
+    .sub-container {
+        border: 1px ; /* Add a border for visual separation */
+        padding: 5px; /* Add some padding to the sub-containers */
+        margin: 2px; /* Add margin to separate them */
+        text-align: center; /* Center the content inside sub-containers */
+        width: 12%; /* Adjust the width to your preference */
     }
 }
