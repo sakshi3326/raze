@@ -81,6 +81,10 @@ p {
     margin-right: 80px;
     
 }
+.font{
+    color: #000000;
+    font-size: 22px;
+}
 .item-text p {
     margin-bottom: 5px; /* You can adjust the margin as needed */
 }
@@ -120,6 +124,7 @@ p {
 .item-image {
     
     padding: 10px;
+    object-fit: cover;
 }
 
 .item-image img {
@@ -169,45 +174,73 @@ p {
 @media (max-width: 768px) {
     .logo {
         font-size: 20px;
+        margin-left: 20px; /* Adjust the margin for the logo */
+    }
+
+    nav {
+        margin-right: 10px; /* Adjust the margin for the nav */
     }
 
     nav li {
-        margin-right: 10px;
+        margin-right: 20px;
+        display: none;
     }
 
-    h1 {
-        font-size: 24px;
+    #search-icon {
+        display: none; /* Hide the search icon on small screens */
     }
 
-    p {
-        font-size: 16px;
+    .content h1 {
+        font-size: 32px; /* Adjust the font size for h1 */
+    }
+
+    .content p {
+        font-size: 16px; /* Adjust the font size for p */
+    }
+
+    .container {
+        width: 100%; /* Make the container full width */
     }
 
     .container-item {
         max-width: 95%;
+        height: auto;
     }
+
     .item-image img {
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: auto;
     }
+
     .item-text {
-        display: flex;
-        color: white;
+        text-align: center; /* Center text in small screens */
+        margin: 10px;
     }
-    @media (max-width: 768px) {
-        .container {
-          width: 100%;
-        }
-      
-        .button-row {
-          flex-direction: column;
-          align-items: center;
-          margin-right: 0;
-        }
-      
-        .button-row button {
-          margin-bottom: 10px;
-        }
-      }
-    
+
+    .button-row {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0; /* Adjust margin for button row */
+    }
+
+    .button-row button {
+        margin: 5px 0; /* Adjust margin for buttons */
+    }
+    .container2{
+        width: 90%;
+    }
+    .container-item2 {
+        flex: 1;
+        height: 140px;
+        background-color: #FFFFFF;
+        margin: 6px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .font{
+        color: #000000;
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
