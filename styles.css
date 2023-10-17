@@ -317,6 +317,8 @@ p {
         display: flex;
         align-items: center;
         border-radius: 5px;
+        justify-content: space-evenly;
+        
     }
     .font{
         color: #000000;
