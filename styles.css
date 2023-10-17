@@ -61,6 +61,13 @@ p {
     width: 75%;
     margin-top: 20px;
 }
+.sub-container {
+    border: 2px ; /* Add a border for visual separation */
+    padding: 10px; /* Add some padding to the sub-containers */
+    margin: 5px; /* Add margin to separate them */
+    text-align: center; /* Center the content inside sub-containers */
+    width: 18%; /* Adjust the width to your preference */
+}
 .container2 {
     
     justify-content: space-between;
@@ -99,11 +106,11 @@ p {
     align-items: center;
 }
 .container-item3 {
-    flex: 1;
+    
     height: 100px;
     background-color: #FFFFFF;
     margin: 10px;
-  display: flex;
+   
     align-items: center;
 }
 .item-image {
@@ -120,6 +127,34 @@ p {
     flex: 2;
     padding: 10px;
     color: white;
+}
+.textRegistration {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #333333; 
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+.progress-bar {
+    width: 86%;
+    background-color: #ccc;
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.progress-bar .fill {
+    width: 80%;
+    height: 5px; /* Adjust the height as needed */
+    background-color: #107854;
+    
+}
+.progress-bar .fill2 {
+    width: 70%;
+    height: 5px; /* Adjust the height as needed */
+    background-color: #107854;
+    
 }
 
 /* Adjust the gap between image and text */
