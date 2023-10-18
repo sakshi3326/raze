@@ -16,6 +16,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
+    
 }
 
 .logo {
@@ -107,7 +109,7 @@ p {
     height: 260px;
     background-color: #243D43;
     margin: 10px;
-  display: flex;
+    display: flex;
     align-items: center;
 }
 .container-item2 {
@@ -251,7 +253,7 @@ p {
     }
 }
 
-@media (min-width: 321px) and (max-width: 680px) {
+@media (min-width: 321px) and (max-width: 690px) {
     .logo {
         font-size: 20px;
         margin-left: 20px; /* Adjust the margin for the logo */
@@ -270,31 +272,31 @@ p {
         display: none; /* Hide the search icon on small screens */
     }
 
-    .content h1 {
-        font-size: 25px; /* Adjust the font size for h1 */
-    }
-
-    .content p {
-        font-size: 10px; /* Adjust the font size for p */
-    }
+    
 
     .container {
         width: 100%; /* Make the container full width */
     }
 
     .container-item {
-        max-width: 90%;
+        max-width: 92%;
         height: auto;
+        overflow: hidden; /* Prevent item-text from crossing boundaries */
     }
 
     .item-image img {
         width: 100%;
+        max-height: 140px; /* Adjust the maximum height for item-image */
         height: auto;
     }
 
+    .container-item {
+        flex-direction: column; /* Stack item-image and item-text in a column */
+    }
+
     .item-text {
-        text-align: center; /* Center text in small screens */
-        margin: 6px;
+        text-align: center;
+        margin: 10px;
     }
 
     .button-row {
@@ -306,35 +308,71 @@ p {
     .button-row button {
         margin: 5px 0; /* Adjust margin for buttons */
     }
-    .container2{
+
+    .container2 {
         width: 90%;
     }
+
     .container-item2 {
         flex: 1;
-        height: 140px;
+        height: auto;
         background-color: #FFFFFF;
-        margin: 3px;
+        margin: 5px;
         display: flex;
-        
+        flex-direction: column;
         border-radius: 5px;
         justify-content: space-between;
-        
     }
-    .font{
+
+    .item-text p {
+        margin: 5px 0; /* Add margin between the paragraphs in item-text */
+    }
+
+    .font {
         color: #000000;
         font-size: 10px;
         font-weight: bold;
     }
-    .numbers{
+
+    .numbers {
         color: #107854;
-         font-size: 10px; 
-         
+        font-size: 11px;
+        font-weight: bold;
     }
+
     .sub-container {
-        border: 1px ; /* Add a border for visual separation */
+        border: 1px; /* Add a border for visual separation */
         padding: 5px; /* Add some padding to the sub-containers */
         margin: 2px; /* Add margin to separate them */
         text-align: center; /* Center the content inside sub-containers */
         width: 12%; /* Adjust the width to your preference */
+    }
+    
+    .content{
+      
+      width: 100%;
+      align-items: center;
+      flex: 1;
+      padding-right: 40px;     
+    }
+    
+    .heading{
+       
+       max-width: 150px;
+       align-self: center;
+      
+        padding-right: 190px;
+       
+    }
+    .content h1 {
+        font-size: 30px; /* Adjust the font size for h1 */
+       
+        
+    }
+
+    .content p {
+        font-size: 12px; /* Adjust the font size for p */
+        padding-right: 190px;
+        
     }
 }
